@@ -67,7 +67,12 @@
                         <phase>package</phase>
                         <goals>
                             <goal>instrument</goal>
-                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>cobertura</goal>
                         </goals>
                     </execution>
                 </executions>
